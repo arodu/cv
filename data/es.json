@@ -1,0 +1,47 @@
+{
+    "cut_name": "Alberto G. Rodriguez U.",
+    "full_name": "Alberto Gabriel Rodriguez Urrutia",
+    "job": "Programador Web / Backend",
+    "email": "arod.unerg@gmail.com",
+    "tel": {
+        "value": "+584127609320",
+        "view": "+58-412-7609320",
+    },
+    "github": {
+        "value": "https://github.com/arodu",
+        "view": "github.com/arodu"
+    },
+    "skype": "a.rod.u",
+
+    "sections": [
+        {
+            "title": "Perfil Profesional",
+            "type": "text",
+            "text": "Profesional integral, con visión sistémica, cultura de mejora continua y ahorro de recursos; capaz de diseñar, e instrumentar sistemas de información. Orientado hacia el área de calidad, productividad y optimización de procesos. Así como también la aplicación de criterios en el ámbito Tecnológico.",
+        },
+
+        {
+            "title": "Work Experience",
+            "type": "articles",
+            "articles": [
+                {
+                    "title": "Job Title at Company",
+                    "sub_title": "April 2011 - Present",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.",
+                },
+                {
+                    "title": "Job Title at Company",
+                    "sub_title": "April 2011 - Present",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.",
+                }
+            ]
+        },
+
+        {
+            "title": "Key Skills",
+            "type": "keys",
+            "keys": ["A Key Skill", "A Key Skill", "A Key Skill", "A Key Skill", "A Key Skill"]
+        },
+
+    ]
+}
