@@ -373,3 +373,12 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
+@media print {
+    #cv {
+    	width: 100%;
+    	max-width: 100%;
+    	background: #f3f3f3;
+    	margin: 0;
+    }
+}
