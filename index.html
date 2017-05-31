@@ -1,232 +1,374 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
-<title>Alberto Rodriguez - Curriculum Vitae</title>
+  <title>Curriculum | Alberto Rodriguez</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curriculum Vitae, Alberto Rodriguez">
+  <meta name="author" content="Alberto Rodriguez">    
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Plugins CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <!-- Theme CSS -->  
+  <link id="theme-style" rel="stylesheet" media="screen" href="assets/css/style.min.css">
+  <link id="theme-style" rel="stylesheet" media="print" href="assets/css/print.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head> 
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Curriculum Vitae of Alberto Rodriguez."/>
-<meta charset="UTF-8">
+<body>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <!--
+      <div class="container-block hidden-print hidden-sm hidden-md hidden-lg text-center">
+        <span href="#" class="btn btn-default btn-xs"><i class="fa fa-download"></i> Descargar</span>
+        <div class="dropdown" style="display:inline-block">
+          <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="fa fa-language"></i> Idioma <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Español/Spanish</a></li>
+            <li><a href="#">Ingles/English</a></li>
+          </ul>
+        </div>
+      </div> -->
+      
+      <div class="profile-container">
+        <img class="profile img-circle" src="assets/images/foto_carnet.jpg" alt="" />
+        <h1 class="name">Alberto Rodriguez</h1>
+        <h3 class="tagline">Desarrollador de Software <i class="fa fa-laptop fa-fw"></i></h3>
+      </div><!--//profile-container-->
+            
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fa fa-envelope"></i><a href="mailto: arodu.dev@gmail.com">arodu.dev@gmail.com</a></li>
+          <li class="phone"><i class="fa fa-phone"></i><a href="tel:+584127609320">+58 412 7609320</a></li>
+          <li class="github"><i class="fa fa-github"></i><a href="http://github.com/arodu" target="_blank">github.com/arodu</a></li>
+          <!-- <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/arodu_dev" target="_blank">@arodu_dev</a></li> -->
+          <!-- <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/alberto-rodriguez-8a81a3b8">linkedin</a></li> -->
+          <li class="skype"><i class="fa fa-skype"></i><a href="skype:a.rod.u?add" target="_blank">a.rod.u</a></li>
+        </ul>
+      </div><!--//contact-container-->
 
-<link type="text/css" rel="stylesheet" href="css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-<link href="vendor/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+      <div class="personal-container container-block">
+          <h2 class="container-block-title">Información Personal</h2>
+          <ul class="list-unstyled interests-list">
+              <li>Dirección: <span class="personal-desc">San Juan de los Morros / <span class="abbr" title="Venezuela">VE</span></span></li>
+              <li>Nacimiento: <span class="personal-desc">20 Dic 1983</span></li>
+              <li>Profesión: <span class="personal-desc">Ingeniero en Informática</span></li>
+          </ul>
+      </div><!--//personal-->
 
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body id="top">
-	<div id="cv" class="instaFade">
-		<div class="mainDetails">
-			<div id="headshot" class="quickFade">
-				<img src="data/headshot.jpg" alt="Alberto Rodriguez" />
-			</div>
-
-			<div id="name">
-				<h1 class="quickFade delayTwo">Alberto G. Rodriguez U.</h1>
-				<h2 class="quickFade delayThree">Programador Web / Backend</h2>
-			</div>
-
-			<div id="contactDetails" class="quickFade delayFour">
-				<ul>
-					<li><i class="fa fa-envelope-o" title="email"></i> <a href="mailto:arodu.dev@gmail.com" target="_blank">arodu.dev@gmail.com</a></li>
-					<li><i class="fa fa-phone" title="phone"></i> <a href="tel:+584127609320" target="_blank">0412-7609320</a></li>
-					<li><i class="fa fa-github" title="github"></i> <a href="https://github.com/arodu" target="_blank">github.com/arodu</a></li>
-					<li><i class="fa fa-skype" title="skype"></i>  <a href="skype:a.rod.u?add" target="_blank">a.rod.u</a></li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</div>
-
-		<div id="mainArea" class="quickFade delayFive">
-
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Información Personal</h1>
-				</div>
-
-				<div class="sectionContent">
-					<ul class="keySkills list">
-						<li>Dirección: San Juan de los Morros / Venezuela</li>
-						<li>Fecha de Nacimiento: 20 Dic 1983</li>
-						<li>Profesión: Ingeniero en Informática</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<article>
-					<div class="sectionTitle">
-						<h1>Perfil Profesional</h1>
-					</div>
-					<div class="sectionContent">
-						<p>Profesional integral, con visión sistémica, cultura de mejora continua y ahorro de recursos; capaz de diseñar, e instrumentar sistemas de información. Orientado hacia el área de calidad, productividad y optimización de procesos. Así como también la aplicación de criterios en el ámbito Tecnológico.</p>
-					</div>
-				</article>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Estudios Realizados</h1>
-				</div>
-
-				<div class="sectionContent">
-					<article>
-						<h2>Bachiller en Administración <small>Mención Procesamiento de Datos</small></h2>
-						<p class="subDetails">U.E. Instituto Los Próceres</p>
-						<p>Maracay, Estado Aragua.</p>
-					</article>
-
-					<article>
-						<h2>Ingeniero en Informática</h2>
-						<p class="subDetails">Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>San Juan de los Morros, Estado Guárico.</p>
-					</article>
-
-					<article>
-						<h2>Especialista en Docencia Universitaria</h2>
-						<p class="subDetails">Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>San Juan de los Morros, Estado Guárico.</p>
-					</article>
-
-					<article>
-						<h2>Doctor en Ciencias de la Educación</h2>
-						<p class="subDetails">Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>San Juan de los Morros, Estado Guárico.</p>
-					</article>
-				</div>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Cursos Realizados</h1>
-				</div>
-
-				<div class="sectionContent">
-					<article>
-						<h2>IBM Advanced Career Education e-business Application Developer Program</h2>
-						<p class="subDetails">Especialización: Aplicaciones e-Bussines. Programa de Desarrolladores de Sofware – P2</p>
-						<p>2009 - San Juan de los Morros. Estado Guárico</p>
-					</article>
-
-					<article>
-						<h2>IBM Advanced Career Education e-business Application Developer Program</h2>
-						<p class="subDetails">Modulo: Application Development. Programa de Desarrolladores de Sofware – P2</p>
-						<p>2009 - San Juan de los Morros. Estado Guárico</p>
-					</article>
-
-					<article>
-						<h2>I Foro de Arquitectura del Computador</h2>
-						<p class="subDetails">Universidad Nacional Experimental Romulo Gallegos</p>
-						<p>2008 - San Juan de los Morros. Estado Guárico</p>
-					</article>
-
-					<article>
-						<h2>IBM Advanced Career Education e-business Application Developer Program</h2>
-						<p class="subDetails">Modulo: Programming Fundamentals. Programa de Desarrolladores de Sofware – P2</p>
-						<p>2008 - San Juan de los Morros. Estado Guárico</p>
-					</article>
-
-				</div>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Inquietud de Conocimiento</h1>
-				</div>
-				<div class="sectionContent">
-					<ul class="keySkills list">
-						<li>Desarrollo de Sistemas</li>
-						<li>Desarrollo bajo ambientes de Software Libre.</li>
-						<li>Seguridad de Sistemas</li>
-						<li>Mantenimiento de Seguridad de Redes</li>
-						<li>Análisis de Sistemas</li>
-						<li>Desarrollo bajo ambientes Web de Diseños Dinámicos</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Habilidades y Destrezas</h1>
-				</div>
-
-				<div class="sectionContent">
-					<ul class="keySkills list">
-						<li>Responsabilidad y el liderazgo</li>
-						<li>Dispuesto a trabajar en equipo</li>
-						<li>Facilidad de trabajo bajo presión</li>
-						<li>Estoy en la disposición para adquirir nuevos conocimientos</li>
-						<li>Estoy en la capacidad de afrontar nuevos retos y de cumplirlos</li>
-						<li>Conocimiento de trabajo colaborativo y a distancia, Slack, Trello, git</li>
-						<li>Dominio de Sistemas Operativos en Ambiente de Software Libre y Privativos</li>
-						<li>Conocimiento de herramientas de Ofimatica en ambientes de Software Libre y Privativos</li>
-						<li>Conocimiento de mantenimiento preventivo y correctivo de Computadoras.</li>
-						<li>Elaboración y mantenimiento de redes informáticas</li>
-						<li>Conocimiento de Diseño Gráfico: Photoshop, Corel Draw, Fireworks, The Gimp</li>
-						<li>Lenguajes de Programación: Pascal, C/C++, Java, Php, Javascript, Elixir</li>
-						<li>Construcción de Aplicaciones web bajo Framework: CakePhp, Yii Framewrok, Phoenix</li>
-						<li>Desarrollo y Administración de Base de Datos Relacionales</li>
-						<li>Conocimiento medio/avanzado de SQL, construcción de consultas complejas</li>
-						<li>Conocimiento medio/avanzado del Framework de desarrollo web CakePhp: construcción de Plugins, Componentes, Helpers</li>
-						<li>Conocimiento medio del Lenguaje de Programación Funcional Elixir</li>
-						<li>Conocimiento medio del Framework Web para el Lenguaje Funcional Elixir, Phoenix Framework.</li>
-						<li>Conocimiento de posicionamiento web: Search engine optimization (SEO)</li>
-						<li>Software de control de versiones GIT</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Perfil Académico</h2>
+        <div class="item">
+          <h4 class="degree">Doctor en Ciencias de la Educación</h4>
+          <h5 class="meta"><span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></h5>
+          <h5 class="meta">San Juan de los Morros, Estado Guárico, <span class="abbr" title="Venezuela">VE</span></h5>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="degree">Especialista en Docencia Universitaria</h4>
+          <h5 class="meta">
+            <span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></h5>
+          <h5 class="meta">San Juan de los Morros, Estado Guárico, <span class="abbr" title="Venezuela">VE</span></h5>
+          
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="degree">Ingeniero en Informática</h4>
+          <h5 class="meta"><span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></h5>
+          <h5 class="meta">San Juan de los Morros, Estado Guárico, <span class="abbr" title="Venezuela">VE</span></h5>
+          <!-- <div class="time">2011 - 2012</div> -->
+        </div><!--//item-->
+      </div><!--//education-container-->
+            
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Idiomas</h2>
+        <ul class="list-unstyled languages-list">
+          <li>Español <span class="lang-desc">(Nativo)</span></li>
+          <li>Ingles <span class="lang-desc">(Lectura)</span></li>
+        </ul>
+      </div><!--//languages-->
 
 
-			<section>
-				<div class="sectionTitle">
-					<h1>Experiencia Laboral</h1>
-				</div>
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Inquietud de Conocimiento</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Desarrollo de Sistemas</li>
+          <li>Desarrollo en ambientes de Software Libre</li>
+          <li>Seguridad de Sistemas</li>
+          <li>Mantenimiento de Seguridad de Redes</li>
+          <li>Análisis de Sistemas</li>
+          <li>Desarrollo Web de Diseños Dinámicos</li>
+          <li>Optimización de Proyectos</li>
+        </ul>
+      </div><!--//interests-->
 
-				<div class="sectionContent">
-					<article>
-						<h2>Profesor Ordinario</h2>
-						<p class="subDetails">Área de Ingeniería de Sistemas, Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>2008 / Actual - San Juan de los Morros, Estado Guárico</p>
-					</article>
+    </div><!--//sidebar-wrapper-->
+        
+    <div class="main-wrapper">
+        <!-- <section class="section controls-section text-right hidden-print hidden-xs">
+          <a href="#" class="btn btn-default btn-xs"><i class="fa fa-download"></i> Descargar</a>
+          <div class="dropdown" style="display:inline-block">
+            <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <i class="fa fa-language"></i> Idioma <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Español/Spanish</a></li>
+              <li><a href="#">Ingles/English</a></li>
+            </ul>
+          </div>
+        </section> -->
 
-					<article>
-						<h2>Área de Informática</h2>
-						<p class="subDetails">Dirección de Control, Admisión y Evaluación, Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>2007 / 2010 - San Juan de los Morros, Estado Guárico</p>
-					</article>
+        <section class="section summary-section">
+          <h2 class="section-title"><i class="fa fa-user"></i>Perfil Profesional</h2>
+          <div class="summary">
+            <p class="text-justify">Profesional integral, con visión sistémica, cultura de mejora continua y ahorro de recursos; capaz de diseñar, e instrumentar sistemas de información. Orientado hacia el área de calidad, productividad y optimización de procesos. Así como también la aplicación de criterios en el ámbito Tecnológico.</p>
+          </div><!--//summary-->
+        </section><!--//section-->
 
-					<article>
-						<h2>Oficina Sectorial de Control de Estudios</h2>
-						<p class="subDetails">Área de Ciencias Políticas y Jurídicas, Universidad Nacional Experimental Rómulo Gallegos</p>
-						<p>2005 / 2006 - San Juan de los Morros, Estado Guárico</p>
-					</article>
+        <section class="section experiences-section">
+          <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiencia Laboral</h2>
 
-					<article>
-						<h2>Área de Informática, Departamento de Estadística</h2>
-						<p class="subDetails">Zona Educativa del Estado Aragua</p>
-						<p>2000 - Maracay, Estado Aragua</p>
-					</article>
-				</div>
-				<div class="clear"></div>
-			</section>
-		</div>
-	</div>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-82468449-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Profesor Ordinario</h3>
+                <div class="time">2008 - Presente</div>
+              </div><!--//upper-row-->
+              <div class="company">Área de Ingeniería de Sistemas, <span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+                
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Desarrollador de Web / Full Stack</h3>
+                <div class="time">2014 - Presente</div>
+              </div><!--//upper-row-->
+              <div class="company">Programador Freelance</div>
+            </div><!--//meta-->
+            <!--<div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+                
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Administrador de Sistemas</h3>
+                <div class="time">2007 / 2010</div>
+              </div><!--//upper-row-->
+              <div class="company">Dirección de Control, Admisión y Evaluación, <span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+                
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Oficina Sectorial de Control de Estudios</h3>
+                <div class="time">2005 / 2006</div>
+              </div><!--//upper-row-->
+              <div class="company">Área de Ciencias Políticas y Jurídicas, <span class="abbr" title="Universidad Nacional Experimental Rómulo Gallegos">UNERG</span></div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+                
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Área de Informática, Departamento de Estadística</h3>
+                <div class="time">2000</div>
+              </div><!--//upper-row-->
+              <div class="company">Zona Educativa del Estado Aragua</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>Maracay, Estado Aragua</p>
+            </div><!--//details-->
+          </div><!--//item-->
+
+        </section><!--//section-->
+
+        <section class="section experiences-section">
+          <h2 class="section-title"><i class="fa fa-book"></i>Cursos Realizados</h2>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Applications e-Bussines</h3>
+                <div class="time">2009</div>
+              </div><!--//upper-row-->
+              <div class="company">IBM Advanced Career Education e-business Application Developer Program</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+            
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Application Development</h3>
+                <div class="time">2009</div>
+              </div><!--//upper-row-->
+              <div class="company">IBM Advanced Career Education e-business Application Developer Program</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+            
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Programming Fundamentals</h3>
+                <div class="time">2008</div>
+              </div><!--//upper-row-->
+              <div class="company">IBM Advanced Career Education e-business Application Developer Program</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>San Juan de los Morros, Estado Guárico</p>
+            </div><!--//details-->
+          </div><!--//item-->
+        </section>
+            
+        <section class="skills-section section">
+          <h2 class="section-title"><i class="fa fa-rocket"></i>Habilidades y Destrezas</h2>
+          <ul class="skills-list">
+            <li>Responsabilidad y liderazgo</li>
+            <li>Dispuesto a trabajar en equipo</li>
+            <li>Facilidad de trabajo bajo presión</li>
+            <li>Estoy en la disposición para adquirir nuevos conocimientos</li>
+            <li>Estoy en la capacidad de afrontar nuevos retos y de cumplirlos</li>
+            <li>Conocimiento de trabajo colaborativo y a distancia, Slack, Trello, git</li>
+            <li>Dominio de Sistemas Operativos en Ambiente de Software Libre y Privativos</li>
+            <li>Conocimiento de herramientas de Ofimatica en ambientes de Software Libre y Privativos</li>
+            <li>Conocimiento de mantenimiento preventivo y correctivo de Computadoras.</li>
+            <li>Elaboración y mantenimiento de redes informáticas</li>
+            <li>Conocimiento de Diseño Gráfico: Photoshop, Corel Draw, Fireworks, The Gimp</li>
+            <li>Lenguajes de Programación: Pascal, C/C++, Java, Php, Javascript, Elixir</li>
+            <li>Construcción de Aplicaciones web bajo Framework: CakePhp, Yii Framewrok, Phoenix</li>
+            <li>Desarrollo y Administración de Base de Datos Relacionales</li>
+            <li>Conocimiento medio/avanzado de SQL, construcción de consultas complejas</li>
+            <li>Conocimiento medio/avanzado del Framework de desarrollo web CakePhp: construcción de Plugins, Componentes, Helpers</li>
+            <li>Conocimiento medio del Lenguaje de Programación Funcional Elixir</li>
+            <li>Conocimiento medio del Framework Web para el Lenguaje Funcional Elixir, Phoenix Framework.</li>
+            <li>Conocimiento de posicionamiento web: Search engine optimization (SEO)</li>
+            <li>Software de control de versiones GIT</li>
+          </ul>
+        </section><!--//skills-section-->
+
+        <section class="skills-section section">
+          <h2 class="section-title"><i class="fa fa-wrench"></i>Lenguajes y Frameworks</h2>
+          <div class="skillset">
+            <div class="item">
+              <h3 class="level-title">HTML5 &amp; CSS</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!--//item-->
+                  
+            <div class="item">
+                <h3 class="level-title">PHP</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+                  
+            <div class="item">
+                <h3 class="level-title">CakePHP, Laravel, CodeIgniter</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+
+            <div class="item">
+                <h3 class="level-title">Javascript &amp; jQuery</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+            
+            <div class="item">
+                <h3 class="level-title">SQL, MySQL &amp; PostgreSQL</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+                  
+            <div class="item">
+                <h3 class="level-title">GNU/Linux</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+            
+            <div class="item">
+                <h3 class="level-title">C/C++, Java</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+            
+            <div class="item">
+                <h3 class="level-title">Elixir &amp; Phoenix</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!--//item-->
+          </div>  
+        </section><!--//skills-section-->
+            
+            <!-- <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
+                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
+                </div>
+                <div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
+                </div>
+            </section><!--//section-->
+        </div><!--//main-body-->
+    </div>
+    
+    <a href="#" id="back-to-top" title="Volver Arriba"><i class="fa fa-chevron-up"></i></a>
+    
+    <!-- Javascript -->          
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-</html>
+</html> 
+

@@ -1,29 +1,22 @@
 {
-  "name": "CV Alberto Rodriguez",
+  "name": "curriculum vitae",
   "authors": [
-    "Alberto Rodriguez <arod.unerg@gmail.com>"
+    "Alberto Rodriguez <arodu.dev@gmail.com>"
   ],
-  "description": "Curriculum Vitae Alberto Rodriguez",
+  "description": "curriculum vitae Alberto Rodriguez",
   "main": "index.html",
   "keywords": [
     "curriculum",
     "vitae",
-    "programacion",
-    "web",
-    "developer",
-    "backend"
+    "developer"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/arodu",
+  "homepage": "arodu.github.io/cv",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "vendor/",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "font-awesome": "fontawesome#^4.6.3"
-  }
+  ]
 }
