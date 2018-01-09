@@ -1,0 +1,62 @@
+{
+	"description": {
+		"es": "Desarrollador de Software",
+		"en": "Software Developer"
+	},
+	"language": {
+		"es": "Idioma",
+		"en": "Language"
+	},
+	"languages": {
+		"es": "Idiomas",
+		"en": "Languages"
+	},
+	"download": {
+		"es": "Descargar",
+		"en": "Download"
+	},
+	"professional-profile": {
+		"es": "Perfil Profesional",
+		"en": "Professional Profile"
+	},
+	"professional-profile-detail": {
+		"es": "Profesional integral, con visión sistémica, cultura de mejora continua y ahorro de recursos; capaz de diseñar, e instrumentar sistemas de información. Orientado hacia el área de calidad, productividad y optimización de procesos. Así como también la aplicación de criterios en el ámbito Tecnológico.",
+		"en": "Integral professional, with systemic vision, culture of continuous improvement and saving of resources; able to design, and implement information systems. Oriented towards the area of quality, productivity and process optimization. As well as the application of criteria in the Technological field."
+	},
+	"personal-information": {
+		"es": "Información Personal",
+		"en": "Personal Information"
+	},
+	"work-experience": {
+		"es": "Experiencia Laboral",
+		"en": "Work Experience"
+	},
+	"realized-courses": {
+		"es": "Cursos Realizados",
+		"en": "Realized Courses"
+	},
+	"skills": {
+		"es": "Habilidades y Destrezas",
+		"en": "Skills and Abilities"
+	},
+	"languages-frameworks": {
+		"es": "Lenguajes y Frameworks",
+		"en": "Languages and Frameworks"
+	},
+	"academic-profile": {
+		"es": "Perfil Académico",
+		"en": "Academic Profile"
+	},
+	"to-learn": {
+		"es": "Inquietud de Conocimiento",
+		"en": "Restlessness to Learn"
+	},
+	"informatics-engineer": {
+		"es": "Ingeniero en Informática",
+		"en": "Informatics Engineer"
+	},
+	"dec": {
+		"es": "Dic",
+		"en": "Dec"
+	}
+}

@@ -1,0 +1,16 @@
+// main
+@import 'mixins';
+
+$primary-color: #545E6C;
+$secondary-color: #545E6C;
+$backgroun-color: #fff;
+$link-color: #2e4049;
+$print-1-color: #111;
+$print-2-color: #444;
+$print-3-color: #777;
+$print-back-color: #EEE;
+$hgame:35px;
+
+@import 'main';
+@import 'screen';
+@import 'print';

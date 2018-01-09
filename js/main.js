@@ -1,7 +1,20 @@
 jQuery(function(){
-  
+
+  var lang_default = (navigator.language || navigator.userLanguage).substr(0, 2).toLowerCase();
+  var translator = null;
+
+  $.getJSON("translations.json", function(dict){
+    translator = $('body').translate({lang: lang_default, t: dict});
+  });
+  $('.lang-es').on('click', function(){
+    translator.lang("es");
+  });
+  $('.lang-en').on('click', function(){
+    translator.lang("en");
+  });
+
   $('.abbr').tooltip();
-  
+
   if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px
         backToTop = function () {
@@ -23,20 +36,4 @@ jQuery(function(){
         }, 700);
     });
 }
-  
-  
-  
-  /*======= Skillset *=======*/
-  //$('.level-bar-inner').css('width', '0');
-  //$(window).on('load', function() {
-  //    $('.level-bar-inner').each(function() {
-  //        var itemWidth = $(this).data('level');
-  //        $(this).animate({
-  //            width: itemWidth
-  //        }, 800);
-  //        
-  //    });
-  //});
-  
-  
 });
