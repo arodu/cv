@@ -14,10 +14,10 @@
   $.fn.translate = function(options) {
 
     var that = this; //a reference to ourselves
-	
+
     var settings = {
       css: "trn",
-      lang: "en"/*,
+      lang: "es"/*,
       t: {
         "translate": {
           pt: "tradução",
@@ -28,16 +28,16 @@
     settings = $.extend(settings, options || {});
     if (settings.css.lastIndexOf(".", 0) !== 0)   //doesn't start with '.'
       settings.css = "." + settings.css;
-       
+
     var t = settings.t;
- 
+
     //public methods
     this.lang = function(l) {
       if (l) {
         settings.lang = l;
         this.translate(settings);  //translate everything
       }
-        
+
       return settings.lang;
     };
 
@@ -52,7 +52,7 @@
         //not found, return index
         return index;
       }
-      
+
       if (res)
         return res;
       else
@@ -62,7 +62,7 @@
     this.g = this.get;
 
 
-    
+
     //main
     this.find(settings.css).each(function(i) {
       var $this = $(this);
@@ -75,11 +75,11 @@
 
       $this.html(that.get(trn_key));
     });
-    
-    
+
+
 		return this;
-		
-		
+
+
 
   };
 })(jQuery);

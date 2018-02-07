@@ -180,5 +180,35 @@
       color: $print-1-color;
     }
   }
+  .sidebar-wrapper .container-block {
+      padding: $sidehgame 20px;
+  }
+
+  .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .sidebar-wrapper .contact-list li {
+    margin-bottom: 6px;
+  }
+  .sidebar-wrapper .languages-list li, .sidebar-wrapper .interests-list li {
+    margin-bottom: 6px;
+  }
+
+  .main-wrapper .projects-section .item {
+    margin-bottom: 4px;
+  }
+
+  .main-wrapper .projects-section .intro {
+      margin-bottom: 15px;
+  }
+
+  p.project-tagline{
+    margin: 0 !important;
+  }
 
 }
