@@ -2,7 +2,6 @@
   .no-print{
     display: none !important;
   }
-
   body {
     font-family: 'Roboto', sans-serif;
     color: $print-2-color;
@@ -18,18 +17,16 @@
     color: $print-2-color;
     text-decoration: none;
   }
-
   p {
     line-height: 1.2;
   }
-
   .abbr{
     border-bottom: none;
   }
   .main-wrapper {
     width: 70%;
     background: #fff;
-    padding: 0px;
+    padding: 0;
     .section-title {
       text-transform: uppercase;
       font-size: 20px;
@@ -44,6 +41,9 @@
     }
     .section {
       margin: $hgame 0;
+      &:last-child{
+        margin: 0 0;
+      }
     }
     .experiences-section .item {
       margin-bottom: 10px;
@@ -69,9 +69,11 @@
       }
       .item {
         margin-bottom: 5px;
+        &:last-child{
+          margin-bottom: 0px;
+        }
       }
     }
-
   }
   .sidebar-wrapper {
     width: 30%;
@@ -133,7 +135,18 @@
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0;
+        &.subtitle{
+          //font-size: 18px;
+        }
+        &.version{
+          //font-size: 12px;
+          padding-top: 12px;
+          a{
+            font-weight: 900;
+          }
+        }
       }
+
     }
     img.profile{
       width: 100%;
@@ -197,14 +210,6 @@
   }
   .sidebar-wrapper .languages-list li, .sidebar-wrapper .interests-list li {
     margin-bottom: 6px;
-  }
-
-  .main-wrapper .projects-section .item {
-    margin-bottom: 4px;
-  }
-
-  .main-wrapper .projects-section .intro {
-      margin-bottom: 15px;
   }
 
   p.project-tagline{
