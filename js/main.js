@@ -1,5 +1,5 @@
 jQuery(function(){
-
+  /*
   var lang_default = (navigator.language || navigator.userLanguage).substr(0, 2).toLowerCase();
   var translator = null;
 
@@ -11,7 +11,7 @@ jQuery(function(){
   });
   $('.lang-en').on('click', function(){
     translator.lang("en");
-  });
+  }); */
 
   $('.abbr').tooltip();
 
